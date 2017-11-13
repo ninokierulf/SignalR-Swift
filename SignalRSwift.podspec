@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios, "8.0"
-
+  s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/AutosoftDMS/SignalR-Swift.git", :tag => "#{s.version}" }
 
   s.source_files  = "SignalR-Swift/**/*.swift"
